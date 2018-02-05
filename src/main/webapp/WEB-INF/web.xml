@@ -21,6 +21,6 @@
 
   <servlet-mapping>
     <servlet-name>resteasy-servlet</servlet-name>
-    <url-pattern>/resteasy/*</url-pattern>
+    <url-pattern>/*</url-pattern>
   </servlet-mapping>
 </web-app>

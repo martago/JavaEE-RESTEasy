@@ -17,6 +17,16 @@ Im Browser folgende Adresse aufrufen:
 http://localhost:8080/resteasy/version
 ```
 
+# GET/POST Tests
+POST
+```
+$ curl -X POST 'http://localhost:8080/resteasy/version?version=2.0.0'
+```
+GET
+```
+$ curl http://localhost:8080/resteasy/version
+```
+
 # Nützliche Links
 - web.xml http://docs.jboss.org/resteasy/docs/2.2.1.GA/userguide/html/Installation_Configuration.html
 - jboss-web.xml https://docs.jboss.org/jbossweb/7.0.x/appdev/jbossweb.html
